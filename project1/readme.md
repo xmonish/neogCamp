@@ -2,4 +2,4 @@
 
 ### <a href="https://repl.it/@xmonish/End-Game?embed=1&output=1#index.js" target="_blank" >Click here to play the quiz</a> 
 
-##### Click on the play icon (bottom right corner) to play the quiz
+##### If having trouble in start, then click on the play icon (bottom right corner) to start the quiz
