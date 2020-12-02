@@ -27,13 +27,16 @@ function play(question, answer) {
 // The toUpperCase() method converts a string to uppercase letters, but doesn't change the original string.
 
 var questionArray = [{
-  question: "Where do i live? ",
+  question: "How old am I? ",
+  answer: "20"
+},{
+  question: "Where do I live? ",
   answer: "bhilai"
 }, {
-  question: "Where do i study? ",
+  question: "Where do I study? ",
   answer: "ssgi"
 }, {
-  question: "Which game do I used to like the most? ",
+  question: "Which game do I used to play the most? ",
   answer: "pubg"
 }
 ]
