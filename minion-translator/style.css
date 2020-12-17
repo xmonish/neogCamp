@@ -1,0 +1,114 @@
+.social-icons{
+    padding: 0px 0;
+}
+
+.social-icons a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    font-size: 1.3em;
+    text-align: center;
+    background:white;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.social-icons a .fa{
+    line-height: 36px;
+}
+
+.social-icons a:hover{
+    color:#fcd34d;
+    background: black;
+}
+
+.navigation {
+    background-color: #fcd34d;
+    padding: 0.9rem 1rem;
+    color:black;
+    text-align: center;
+    font-size: 2em;
+  }
+  
+.nav-heading {
+    display: flex;
+    justify-content: center;
+  }
+
+body {
+    box-sizing: border-box;
+    margin: 0em;
+    background-color: #fffbeb;
+    font-family: lakki reddy;
+}
+
+.header {
+    background-color: #fcd34d;
+    height: 10em;
+    padding-top: 3em;
+}
+
+.image {
+    width: 10em;
+    display: block;
+    margin: auto;
+}
+
+.header h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 0em;
+}
+
+.textbox {
+    display: block;
+    font-size: 1.2rem;
+    margin: 0em auto;
+    height: 7em;
+    width: 30em;
+    border-radius: 1em;
+    padding: 1em;
+    max-width: 90%;
+}
+
+button {
+    margin: 1em auto;
+    display: block;
+    background-color: #fcd34d;
+    border: none;
+    padding: 0.5em 1em 0.1em 1em;
+    border-radius: 1em;
+    font-size: 1.4rem;
+    font-family: lakki reddy;
+}
+
+button:hover {
+    padding: 0.4em 0.8em 0.05em 0.8em;
+    margin: 1.08em auto;
+}
+
+footer{
+    margin-top: 1em;
+    text-align: center;
+    background-color: #fcd34d;
+    padding: 2rem 0rem;
+    text-align: center;
+    color: black;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    margin: 0;
+    width: 100%;
+    position: absolute;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+footer a:hover {
+    font-size: 1.3rem;
+}

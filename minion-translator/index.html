@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minion Translator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" type="image/ico" href="./favicon.ico"/>
+
+
+    <style>
+        textarea{
+            width: 80%;
+            display: block;
+            height: 10vh;
+            margin: 1rem;
+            padding: 1rem;
+            border-radius: 1em;
+        }
+
+        #output{
+            border: 1px solid black;
+            height: 10vh;
+            width: 80%;
+            margin: 1rem;
+            padding: 1rem;
+        }
+    </style>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lakki+Reddy&display=swap" rel="stylesheet"/>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- nav -->
+    <nav class="navigation">
+        <div class="nav-heading">
+          <img src="./minion-svg.svg" alt="" class="minion-svg">
+         <h1>Translate English to Minion-ese</h1>
+          <img src="./minion-svg.svg" alt="" class="minion-svg">
+        </div>
+        
+    </nav>
+<!-- nav -->
+
+    <h1> &nbsp talk banana</h1>
+    <textarea id="txt-input" placeholder="Enter your sentence in English"></textarea>
+    <button id="btn-translate">Translate</button>
+
+
+    <div style="font-size: larger;"> &nbsp &nbsp Output will come here 👇</div>
+    <div id="output" class="textbox"></div>
+
+    <button id="btn-translate">Text to Speech</button>
+
+
+<!-- footer -->
+    <footer>
+        <section>
+            <a href="https://www.kickassfacts.com/minion-facts/">Some Fun facts about minions</a>
+        </section>   
+
+        <div class="footer-header">Connect with me!<a class="footer__icon"> <i class='bx bx-conversation' ></i></a></div>  
+        <div class="footer-ul">
+        <div class="social-icons">
+        <a href="https://www.facebook.com/xmonish"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/xmonish"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.twitter.com/monishsingh26"><i class="fa fa-twitter"></i></a>
+        </div>            
+    </footer>
+
+    <script src="app.js" type="text/javascript"> </script>
+</body>
+</html>
